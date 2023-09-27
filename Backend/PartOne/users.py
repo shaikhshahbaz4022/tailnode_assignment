@@ -1,17 +1,28 @@
+# http library
 import requests
+
+#connection to postgresSQL
 import psycopg2
+
+# for enviroment variables
 from decouple import config
-app_id = '65141aaebac0bd0d974cabe5'
+
+app_id = config('app_id')
+
 databaseurl = config('database_URL')
+
 users_api_url = 'https://dummyapi.io/data/v1/user'
 
 connection = psycopg2.connect(databaseurl)
 
+# for intraction with database
 cursor = connection.cursor()
 
+# making the request for data
 response = requests.get(users_api_url,headers={'app-id':app_id})
+
+#converting from json to simple data for manipulation of data
 user_Data = response.json()
-# print(user_Data)
 
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS users (

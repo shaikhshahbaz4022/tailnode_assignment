@@ -7,7 +7,7 @@ connection = psycopg2.connect(databaseurl)
 # intacting with database with cursor
 cursor = connection.cursor()
 
-app_id = '65141aaebac0bd0d974cabe5'
+app_id = config('app_id')
 
 cursor.execute('SELECT id FROM users')
 user_id = cursor.fetchall()
