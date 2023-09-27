@@ -36,15 +36,15 @@ Scrape specific data from a website and insert it into a PostgreSQL database.
 
 ### Users Table
 
-<img src="https://imageupload.io/ib/1MbREfOQK8Y6X6l_1695843782.png" alt="error">
+![Alt text](<./assets/Screenshot 2023-09-28 004552.png>)
 
 ### posts Table
 
-<img src="https://imageupload.io/ib/JGfhQ5ow2baxRvq_1695843782.png" alt="error">
+![Alt text](<./assets/Screenshot 2023-09-28 004620.png>)
 
 ### Books Table
 
-<img src="https://imageupload.io/ib/1w9acLPzUfpPlQO_1695843782.png" alt="error">
+![Alt text](./assets/Screenshot%202023-09-28%20004643.png)
 
 For detailed implementation and code examples, please refer to the project source code.
 
