@@ -1,8 +1,5 @@
 # Web Scraping and Database Insertion Project
 
-## Introduction
-
-This project demonstrates the process of scraping data from websites and inserting it into a PostgreSQL database using Python. The focus here is on simplicity and clarity, with step-by-step guidance for two distinct parts.
 
 ## Part 1: User Data Scraping and Insertion
 
@@ -30,28 +27,4 @@ Scrape specific data from a website and insert it into a PostgreSQL database.
 - **BeautifulSoup**: A Python library for web scraping.
 - **requests**: A Python library for making HTTP requests.
 
----
 
-## Snapshorts
-
-### Users Table
-
-![Alt text](<./Backend/assets/Screenshot 2023-09-28 004552.png>)
-
-### posts Table
-
-![Alt text](<./Backend/assets/Screenshot 2023-09-28 004620.png>)
-
-### Books Table
-
-![Alt text](./Backend/assets/Screenshot%202023-09-28%20004643.png)
-
-For detailed implementation and code examples, please refer to the project source code.
-
----
-
-**Author**: Shahbaz Shaikh
-
-**Email**: shaikhshahbaz4022@gmail.com
-
----
